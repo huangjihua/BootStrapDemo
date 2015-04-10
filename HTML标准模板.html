@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- X-UA-Compatible来设置IE浏览器的兼容模式，IE=edge表示使用IE8的最高模式,也可以使用IE=EmulateIE7,IE=5,IE=7,IE=8等 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- 3.X和2.X版本区别，就是多了下面一行代码 -->
+	<meta name="viewport" content="width=device-width,inital-scale=1,maximum-scale=1,user-scalable=no">
+	<title>Bootstrap 基础模板</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="node_modules/bootstrap/css/bootstrap.css"/>
+		<!-- 以下2个插件是用于在IE8支持HTML5元素和媒体查询的，如果不用可以移除 -->
+		<!-- 注意：Respond.js不支持file://方式访问 -->
+		<!-- [if lt IE 9]-->
+			<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.js"></script>
+			<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+		<!-- [endif] -->
+</head>
+<body>
+	<h1>Hello,world!</h1>
+	 <style type="text/css">
+		.line{border:solid 1px #c5c5c5;}
+	 </style>
+	<div class="container line">
+		<div class="row line">
+			<div class="col-md-1">
+				响应式设计
+			</div>
+			<div class="col-md-3">
+				<div class="row">
+					<div class=""></div>
+				</div>
+			</div>
+			<div class="col-md-2">3</div>
+		</div>
+	</div>
+	
+
+
+	<!-- 如果要使用Bootstrap的JS插件，则必须引入jquery -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+	<!-- Bootstrap的JS插件 -->
+	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+</html>
